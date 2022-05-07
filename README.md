@@ -5,7 +5,7 @@ Página web dedicada a la práctica de publicar páginas webs en [**GitHub.io**]
 
 Se van a ir añadiendo, eliminando o modificando los archivos de que se componen y compondrán el site.
 
-Lista de compras
+Lista en MarkDown
 ---------------
 * Frutas
   * Manzanas
