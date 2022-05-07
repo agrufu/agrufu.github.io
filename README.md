@@ -10,3 +10,13 @@ Sitio web para realizar pruebas y experimentos de cómo montar un sitio web con 
 ##### even smaller #####
 ###### smallest still: `<h6>` header
 
+Lista de compras
+---------------
+* Frutas
+  * Manzanas
+  * Naranjas
+  * Uvas
+* Lácteos
+  * Leche
+  * Queso
+  
