@@ -1,9 +1,10 @@
-# <p align="center">@grufu €studios</p> #
+# <p align="center">@grufu €studios</p>
 <p align="center"><img width="200" src="assets/img/avataaars.svg"></p>
 
-<p>Página web dedicada a la práctica de publicar páginas webs en # GitHub.io #
-# **GitHub.io** #
-</p>
+<p>Página web dedicada a la práctica de publicar páginas webs en <strong>GitHub.io</strong></p>
+
+# **GitHub.io**
+
 Sitio web para realizar pruebas y experimentos de cómo montar un sitio web con el sistema de versiones Git en la plataforma GitHub.
 
 # this is a huge header #
