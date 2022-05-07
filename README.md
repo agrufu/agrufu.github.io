@@ -1,4 +1,4 @@
-# agrufu.github.io
+# <p align="center">@grufu €studios</p>
 <p align="center"><img width="200" src="assets/img/avataaars.svg"></p>
 Página web de pruebas con **GitHub.io**
 
