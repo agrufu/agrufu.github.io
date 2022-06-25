@@ -126,7 +126,7 @@
     border-top: 3px solid white;
     transform: rotate(-45deg);
   }
-  .sea .submarine-wrapper .submarine-body {
+  .sea .submarine-wrapper .submarine-body .engine {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -154,16 +154,6 @@
     left: 8px;
     width: 4px;
     height: 20px;
-  }
-  .engine {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    margin-top: 32px;
-    left: 53px;
-    background-color: #bc243d;
-    border-radius: 50%;
-    border: 5px solid #D93A54;
   }
   .engine:after, .engine:before {
     position: absolute;
