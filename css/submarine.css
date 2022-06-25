@@ -177,8 +177,8 @@
     opacity: 0.8;
     background: linear-gradient(to bottom, #D93A54, #D93A54 50%, #e57a8c 50%, #e57a8c);
     background-size: 100% 20px;
-    -webkit-animation: helix-movement 110ms linear infinite;
-            animation: helix-movement 110ms linear infinite;
+    -webkit-animation: helix-movement 100ms linear infinite;
+            animation: helix-movement 100ms linear infinite;
   }
   .sea .submarine-wrapper .hat {
     width: 65px;
