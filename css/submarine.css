@@ -319,7 +319,7 @@
       transform: rotate(0deg);
     }
     50% {
-      transform: rotate(3deg);
+      transform: rotate(0deg);
     }
     75% {
       transform: rotate(-2deg);
