@@ -7,24 +7,24 @@ body {
 }
 
 .sea {
-  margin: 50px auto 0 auto;
+  margin: 40px auto 0 auto;
   overflow: hidden;
 }
 .sea .bubble {
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background-color: #6bafca;
   opacity: 0.9;
-  -webkit-animation: bubble1-h-movement 1s ease-in infinite, bubble1-v-movement 250ms ease-in-out infinite alternate, bubble-scale-movement 250ms ease-in-out infinite alternate;
-          animation: bubble1-h-movement 1s ease-in infinite, bubble1-v-movement 250ms ease-in-out infinite alternate, bubble-scale-movement 250ms ease-in-out infinite alternate;
+  -webkit-animation: bubble1-h-movement 1s ease-in infinite, bubble1-v-movement 300ms ease-in-out infinite alternate, bubble-scale-movement 300ms ease-in-out infinite alternate;
+          animation: bubble1-h-movement 1s ease-in infinite, bubble1-v-movement 300ms ease-in-out infinite alternate, bubble-scale-movement 300ms ease-in-out infinite alternate;
 }
 .sea .bubble:after {
   position: absolute;
   content: "";
-  width: 7px;
-  height: 7px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background-color: #6bafca;
   opacity: 0.9;
@@ -32,37 +32,37 @@ body {
 .sea .bubble:after {
   top: -20;
   left: 100px;
-  width: 9px;
-  height: 9px;
+  width: 5px;
+  height: 5px;
 }
 .sea .circle-wrapper {
   position: relative;
   background: linear-gradient(#2c647a, #204858);
   width: 300px;
   height: 300px;
-  margin: 10px auto 0 auto;
+  margin: 5px auto 0 auto;
   overflow: hidden;
   z-index: 0;
   border-radius: 50%;
   padding: 0 50px 0 50px;
-  border: 6px solid #3e8caa;
+  border: 5px solid #3e8caa;
 }
 .sea .submarine-wrapper {
-  height: 300px;
-  width: 300px;
-  padding: 30px 50px 30px 150px;
+  height: 200px;
+  width: 200px;
+  padding: 40px 50px 40px 200px;
   margin: 0 auto 0 auto;
-  -webkit-animation: diving 3s ease-in-out infinite, diving-rotate 3s ease-in-out infinite;
-          animation: diving 3s ease-in-out infinite, diving-rotate 3s ease-in-out infinite;
+  -webkit-animation: diving 2s ease-in-out infinite, diving-rotate 2s ease-in-out infinite;
+          animation: diving 2s ease-in-out infinite, diving-rotate 2s ease-in-out infinite;
 }
 .sea .submarine-wrapper .submarine-body {
-  width: 150px;
-  height: 80px;
+  width: 160px;
+  height: 85px;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 45px;
   left: 25px;
   background-color: #D93A54;
-  border-radius: 40px;
+  border-radius: 35px;
   background: linear-gradient(#D93A54, #bc243d);
 }
 .sea .submarine-wrapper .submarine-body .light {
@@ -70,7 +70,7 @@ body {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 40px 150px 40px;
+  border-width: 0 50px 130px 35px;
   border-color: transparent transparent #377c98 transparent;
   transform: rotate(-50deg);
   top: 40px;
@@ -80,17 +80,17 @@ body {
   content: "";
   position: absolute;
   width: 20px;
-  height: 13px;
-  border-radius: 5px;
+  height: 15px;
+  border-radius: 6px;
   background-color: #d12844;
-  margin-left: -10px;
+  margin-left: -9px;
 }
 .sea .submarine-wrapper .submarine-body .window {
-  width: 37px;
-  height: 37px;
+  width: 38px;
+  height: 38px;
   position: absolute;
-  margin-top: 23px;
-  right: 18px;
+  margin-top: 25px;
+  right: 15px;
   background: linear-gradient(#1e4554, #183642);
   border-radius: 50%;
   border: 3px solid #D93A54;
@@ -99,24 +99,24 @@ body {
   content: "";
   position: absolute;
   margin-top: 3px;
-  margin-left: 3px;
+  margin-left: -14px;
   width: 25px;
   height: 25px;
   border-radius: 50%;
   background-color: transparent;
-  opacity: 0.8;
-  border-top: 3px solid white;
+  opacity: 0.7;
+  border-top: 5px solid white;
   transform: rotate(-45deg);
 }
 .sea .submarine-wrapper .submarine-body .engine {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   position: absolute;
-  margin-top: 32px;
-  left: 53px;
+  margin-top: 30px;
+  left: 45px;
   background-color: #bc243d;
   border-radius: 50%;
-  border: 5px solid #D93A54;
+  border: 2px solid #D93A54;
 }
 .sea .submarine-wrapper .submarine-body .engine:after, .sea .submarine-wrapper .submarine-body .engine:before {
   position: absolute;
@@ -129,13 +129,14 @@ body {
 }
 .sea .submarine-wrapper .submarine-body .engine:after {
   top: 8px;
-  width: 20px;
-  height: 4px;
+  width: 21px;
+  left: 1px;
+  height: 5px;
 }
 .sea .submarine-wrapper .submarine-body .engine:before {
-  left: 8px;
-  width: 4px;
-  height: 20px;
+  left: 9px;
+  width: 5px;
+  height: 21px;
 }
 .sea .submarine-wrapper .helix {
   width: 30px;
@@ -151,7 +152,7 @@ body {
   content: "";
   position: absolute;
   margin-top: 5px;
-  margin-left: 7px;
+  margin-left: -8px;
   width: 17px;
   height: 60px;
   border-radius: 3px;
