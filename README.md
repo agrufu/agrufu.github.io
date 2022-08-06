@@ -5,18 +5,5 @@ Página web dedicada a la práctica de publicar páginas webs en [**GitHub.io**]
 
 Se van a ir añadiendo, eliminando o modificando los archivos de que se componen y compondrán el site.
 
-Lista en MarkDown
----------------
-* Frutas
-  * Manzanas
-  * Naranjas
-  * Uvas
-* Lácteos
-  * Leche
-  * Queso
-
-| Encabezado 1 | Encabezado 2 | Encabezado 3 |
-| --------- | --------- | --------- |
-| renglón 1, columna 1 | renglón 1, columna 2 | renglón 1, columna 3|
-| renglón 2, columna 1 | renglón 2, columna 2 | renglón 2, columna 3|
-| renglón 3, columna 1 | renglón 3, columna 2 | renglón 3, columna 3|
+<p>Somos un grupo de frikes de la informática, la electrónica y la tecnología. Desde 1989 trasteando con aparatos electrónicos y ordenadores, y desde el nacimiento de Internet metid@s en infinidad de proyectos tecnológicos.</p>
+<p>Tras muchos años de relación internauta, profesional y personal, decimos juntarnos para poner en marcha este proyecto. Técnicos en Eléctricidad, Electrónica, Telecomunicaciones, Informática, Diseño y Publiciad, conforman este grupo de frikies.</p>
